@@ -1,0 +1,114 @@
+form {
+  border: 3px solid #f1f1f1;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+nav {
+  font-family: Montserrat;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: white;
+  color: white;
+  padding: 1rem;
+}
+ul {
+  list-style-type: none;
+}
+nav li {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-left: 1rem;
+  float: left;
+  text-transform: capitalize;
+}
+nav li:hover {
+  cursor: pointer;
+  font-weight: 500;
+}
+nav button {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 1rem;
+  background: #c7493a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.4rem 1.4rem;
+  cursor: pointer;
+}
+nav button:hover {
+  font-weight: 500;
+  color: black;
+  background: white;
+  transform: scale(1.1);
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}

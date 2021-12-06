@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <link rel="stylesheet" href="search.css" />
+    <title>Search Product</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  </head>
+  <body>
+    <form action="" method="post">
+      <div class="container">
+        <label for="text"><b>product id</b></label>
+        <input
+          id="id"
+          type="text"
+          placeholder="Enter Product Id"
+          name="text"
+          required
+        />
+        <button type="submit">Get</button>
+      </div>
+    </form>
+    <script>
+      $(document).ready(function () {
+        $("button").click(function (e) {
+          e.preventDefault();
+          console.log($("#id").val());
+          var id = $("#id").val();
+        });
+      });
+    </script>
+  </body>
+</html>
